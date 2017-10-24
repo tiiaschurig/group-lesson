@@ -1,0 +1,90 @@
+body{
+  font-family: "Arial"
+}
+
+nav{
+  background-color: darkblue;
+  width: 100%;
+  color: white;
+}
+
+nav ul{
+  list-style: none;
+  padding: 10px 0px;
+}
+
+nav li{
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:visited{
+  color: white;
+}
+
+li#title{
+  padding: 10px 470px 10px 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+div.clearfix{
+  clear: both;
+}
+
+div.wrapper{
+margin: 0 auto;
+}
+
+div.category{
+  width: calc(50% - 20px);
+  height: 450px;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 36pt;
+  float: left;
+  box-sizing: border-box;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid darkblue;
+  position: relative;
+}
+
+div.category span{
+  position: absolute;
+  margin: 5px;
+  bottom: 0;
+  right: 0;
+}
+
+div#pets{
+  background-image: url(images/sexy-dog.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div#people{
+  background-image: url(images/ramen-romper.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div.explainer{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+
+}
+
+span.emphasis{
+  font-weight: bold;
+  text-transform: uppercase;
+}
