@@ -11,7 +11,7 @@ body {
 
 .main-image {
   width: 900px;
-  height: auto;
+  height: 400px;
   margin-bottom: 15px;
 
 }
@@ -54,4 +54,9 @@ li#title{
   padding: 10px 470px 10px 10px;
   font-style: italic;
   font-weight: bold;
+}
+
+span.emphasis{
+  font-weight: bold;
+  text-transform: uppercase;
 }
