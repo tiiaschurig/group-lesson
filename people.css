@@ -38,24 +38,24 @@ div#main-image3 {
 .main-content {
   width: 80%;
   font-size: 25px;
+  text-align: center;
   margin: 0 auto;
 }
-
 nav{
   background-color: darkblue;
   width: 100%;
+  padding: 5px;
   color: white;
 }
 
 nav ul{
   list-style: none;
-  padding: 10px 0px;
 }
 
 nav li{
-  display: inline-block;
   padding: 10px;
   font-size: 16px;
+  float: left;
 }
 
 nav li a{
@@ -67,13 +67,42 @@ nav li a:visited{
   color: white;
 }
 
-li#title{
-  padding: 10px 470px 10px 10px;
-  font-style: italic;
+.title{
   font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 2.5px;
+}
+
+.first-nav {
+  margin-right: 20%;
+}
+
+.last-nav {
+  margin-left: 15%;
+}
+
+.nav-wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.clearfix{
+  clear: both;
 }
 
 span.emphasis{
   font-weight: bold;
   text-transform: uppercase;
+}
+
+@media all and (max-width: 760px) and (min-width: 500px) {
+  .main-content {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 499px) {
+  .main-content {
+    font-size: 17px;
+  }
 }
