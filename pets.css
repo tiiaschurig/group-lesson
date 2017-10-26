@@ -1,26 +1,44 @@
 body {
   font-family: "Helvetica", sans-serif;
 }
+
 .wrapper {
-  width: 900px;
-  margin: 0 auto;
-  padding-bottom: 15px;
-  font-size: 25px;
-  font-family: "Helvetica", sans-serif;
-}
-
-.main-image {
-  width: 900px;
-  height: auto;
-  margin-bottom: 15px;
-}
-
-.main-image img {
   width: 100%;
+  padding-bottom: 15px;
+}
+
+div.images {
+    height: 500px;
+    width: 80%;
+}
+
+div#main-image1 {
+  background-image: url(images/trump-joggers.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+div#main-image2 {
+  background-image: url(images/statue-romper.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+div#main-image3 {
+  background-image: url(images/kim-romper.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 .main-content {
+  width: 80%;
   font-size: 25px;
+  margin: 0 auto;
 }
 
 nav{
