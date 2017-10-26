@@ -102,3 +102,15 @@ span.emphasis{
   font-weight: bold;
   text-transform: uppercase;
 }
+
+@media all and (max-width: 760px) and (min-width: 500px) {
+  div.category {
+    font-size: 30pt;
+  }
+}
+
+@media all and (max-width: 499px) {
+  div.category {
+    font-size: 25pt;
+  }
+}
